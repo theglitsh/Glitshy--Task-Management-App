@@ -1,0 +1,17 @@
+{
+  "name": "task-management-app",
+  "version": "0.0.1",
+  "description": "",
+  "author": "TheGlitsh",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "concurrently \"npm run server:start\" \"npm run client:start\" \"npm run mongo:start\"",
+    "server:start": "cd server && npm run start:dev",
+    "client:start": "cd client && npm run dev",
+    "mongo:start": "mongod --dbpath ./data/db"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
