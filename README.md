@@ -126,7 +126,3 @@ npm test
 ## 7. Deployment
 
 The application is Dockerized, making it easy to deploy in any Docker-compatible environment. For production deployment, ensure that environment variables are set correctly and that the docker-compose.yml file is configured for production settings.
-
-## 8. License
-
-This project is licensed under the MIT License.
