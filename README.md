@@ -38,7 +38,7 @@ Ensure you have the following installed on your machine:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/task-management-dashboard.git
+git clone https://github.com/theglitsh/Glitshy--Task-Management-App.git
 cd task-management-dashboard
 ```
 
