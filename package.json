@@ -6,10 +6,9 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "start": "concurrently \"npm run server:start\" \"npm run client:start\" \"npm run mongo:start\"",
-    "server:start": "cd server && npm run start:dev",
-    "client:start": "cd client && npm run dev",
-    "mongo:start": "mongod --dbpath ./data/db"
+    "start": "concurrently \"npm run server:start\" \"npm run client:start\"",
+    "server:start": "cd server && npm start",
+    "client:start": "cd client && npm start"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
